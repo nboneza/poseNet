@@ -1,0 +1,38 @@
+
+p {
+    color: black ;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    top: 95%;
+    left: 48%;
+}
+
+canvas {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:auto;
+    /*
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    */
+    filter: FlipH;
+}
+
+#slander {
+    position: absolute;
+    overflow: scroll;
+    width: 20%;
+    height: 80%;
+    background-color: black;
+    right:5%;
+
+}
